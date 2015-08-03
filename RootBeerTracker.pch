@@ -1,0 +1,23 @@
+//
+//  RootBeerTracker.pch
+//  Root Beer Tracker
+//
+//  Created by Ryan Holstad on 6/21/15.
+//  Copyright (c) 2015 Ryan Holstad. All rights reserved.
+//
+
+#ifndef Root_Beer_Tracker_RootBeerTracker_pch
+#define Root_Beer_Tracker_RootBeerTracker_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "AppDelegate.h"
+
+#define BUILD_FOR_PRODUCTION
+
+#define ParseApplicationId  @"jlc9c5HBKjzm7GgZNKsaTKf5R1bqqVUwMVhlGsRY"
+#define ParseClientKey      @"BdTc7z62ZDXacmCJXjyb4X75LMwF2RqRRMxsm0HF"
+
+#define ApplicationDelegate ((AppDelegate*)[[UIApplication sharedApplication] delegate])
+
+#endif
